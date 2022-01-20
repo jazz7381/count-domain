@@ -1,6 +1,8 @@
 #!/usr/local/bin/php
 <?php
 
+ini_set('memory_limit', '-1');
+
 require 'vendor/autoload.php';
 use Rap2hpoutre\FastExcel\FastExcel;
 

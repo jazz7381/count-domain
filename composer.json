@@ -1,0 +1,19 @@
+{
+    "name": "jazz/count-domains",
+    "autoload": {
+        "psr-4": {
+            "Jazz\\CountDomains\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "jazz7381",
+            "email": "7381@asiapowergames.com"
+        }
+    ],
+    "require": {
+        "rap2hpoutre/fast-excel": "^3.1",
+        "symfony/var-dumper": "^5.4",
+        "illuminate/database": "^8.80"
+    }
+}
